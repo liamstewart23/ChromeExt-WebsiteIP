@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch(urlFetch)
       .then(res => res.json())
       .then((output) => {
-        document.body.innerHTML = output.query + "😭";
+        document.body.innerHTML = output.query;
       })
       .catch(err => {
-        document.body.innerHTML = '😭';
+        document.body.innerHTML = ':(';
       });
 
   });

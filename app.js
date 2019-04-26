@@ -10,12 +10,21 @@ document.addEventListener('DOMContentLoaded', function() {
     parser.href = url;
     let urlFetch = 'http://ip-api.com/json/' + parser.hostname; //url to fetch
 
+    let copyField = document.querySelector('#copyField');
+
+    function copyToClipboard() {
+        copyField.select();
+        document.execCommand("copy");
+    }
+
     fetch(urlFetch)
       .then(res => res.json())
       .then((output) => {
-        document.body.innerHTML = output.query;
+        copyField.value = output.query;
+        document.addEventListener('click',copyToClipboard,false);
       })
       .catch(err => {
+        console.log(err);
         document.body.innerHTML = ':(';
       });
 

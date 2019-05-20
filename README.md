@@ -6,4 +6,8 @@ Features:
 - IPv6 support
 - Clean, attractive and does the job
 
-Install: https://chrome.google.com/webstore/detail/get-website-ip/dmgahoocbgdiidmbmihphakakdddgoof
+## Install:
+https://chrome.google.com/webstore/detail/get-website-ip/dmgahoocbgdiidmbmihphakakdddgoof
+
+## Firefox
+https://github.com/liamstewart23/Firefox-WebsiteIP

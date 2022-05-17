@@ -10,4 +10,6 @@ Features:
 https://chrome.google.com/webstore/detail/get-website-ip/dmgahoocbgdiidmbmihphakakdddgoof
 
 ## Firefox
+https://addons.mozilla.org/en-US/firefox/addon/website-ip/
+
 https://github.com/liamstewart23/Firefox-WebsiteIP

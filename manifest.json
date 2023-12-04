@@ -1,14 +1,19 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
   "name": "Website IP",
   "description": "Simple Chrome Extension to get the current website IP address.",
-  "version": "1.5",
-  "browser_action": {
-   "default_icon": "icon.png",
-   "default_popup": "index.html"
+  "version": "2.0",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
   },
   "permissions": [
-   "tabs"
-   ]
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
 }
